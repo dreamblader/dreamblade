@@ -1,0 +1,4 @@
+<body>
+  <!--This is a Sample Index to test how to re-use the animated HTML in another static pages-->
+  <iframe src="logo_animated.html" scrolling="no"></iframe>
+</body>
