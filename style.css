@@ -1,0 +1,36 @@
+@keyframes title-glow {
+  0% {
+    filter: brightness(1);
+  }
+  50% {
+    filter: brightness(0.25);
+  }
+  100% {
+    filter: brightness(1);
+  }
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 100%;
+  background-color: rgb(29, 18, 129);
+}
+
+h1 {
+  margin-top: 2rem;
+  animation: title-glow 10s infinite;
+}
+
+.scale-iframe {
+  transform: scale(1.5);
+}
